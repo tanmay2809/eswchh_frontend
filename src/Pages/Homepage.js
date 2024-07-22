@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Info from "../Components/Info";
-import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../Components/variants";
 import pic4 from "../assets/leaf1.webp";
@@ -64,13 +63,6 @@ function Home(props) {
               <br />
               Recycle
             </span>
-            <TypeAnimation
-              className=""
-              sequence={['E-waste"  ', 1000, "", 1000]}
-              speed={50}
-              wrapper="span"
-              repeat={Infinity}
-            />
           </motion.div>
           <div>
             <div>
